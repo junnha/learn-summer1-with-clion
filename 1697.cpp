@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 #define X first
 #define Y second
-
 int board[1002][1002];
 int dist[1002][1002];
 int m, n;
