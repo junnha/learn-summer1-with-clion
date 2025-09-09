@@ -8,12 +8,15 @@ int main() {
     int N;
     cin >> N;
     vector<int> cards(N);
-    for (int i = 0; i < N; i++) cin >> cards[i];
+    for (int i = 0; i < N; i++) {
+        cin >> cards[i];
+    }
 
     sort(cards.begin(), cards.end());
 
     int M;
     cin >> M;
+
     for (int i = 0; i < M; i++) {
         int query;
         cin >> query;
